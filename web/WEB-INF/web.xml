@@ -20,6 +20,6 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>com.yx.controller.LoginServlet</servlet-class>
+        <servlet-class>com.yx.controller.UserLoginServlet</servlet-class>
     </servlet>
 </web-app>

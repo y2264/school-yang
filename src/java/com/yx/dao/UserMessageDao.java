@@ -16,4 +16,11 @@ public interface UserMessageDao {
      * */
     public List<User> getAllUserData() throws ClassNotFoundException, SQLException;
 
+    /**
+     * @param name, password 用户登录账号和密码
+     * @return 登录成功返回true，否则返回false
+     * @throws ClassNotFoundException 数据库驱动加载失败
+     * @throws SQLException 用户登录失败
+     * */
+    public boolean login(String name, String password) throws ClassNotFoundException, SQLException;
 }
