@@ -1,20 +1,15 @@
 package com.yx;
 
-import com.yx.dao.*;
-import com.yx.pojo.Student;
-import com.yx.pojo.Students;
-import com.yx.util.DbUtil;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
-class test {
-
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-
-    }
-}
 
 
