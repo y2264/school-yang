@@ -1,6 +1,12 @@
 package com.yx.pojo;
 
-public class Students {
+
+import java.io.Serializable;
+
+/**
+ * 用于jsp的测试实体类，JavaBean
+ * */
+public class Students implements Serializable {
 
     private int s_id;
     private String s_name;

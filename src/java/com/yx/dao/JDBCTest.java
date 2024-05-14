@@ -27,6 +27,7 @@ public class JDBCTest {
             if(connection != null){
                 System.out.println("链接成功");
             }
+            assert connection != null;
             statement = connection.createStatement();
         }catch (Exception e){
             System.out.println("链接失败");

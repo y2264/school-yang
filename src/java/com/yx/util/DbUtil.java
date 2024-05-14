@@ -8,7 +8,6 @@ import java.sql.*;
  * */
 public class DbUtil {
 
-
     /**
      * @param
      * @return java.sql.COnnection   接口的类型实例

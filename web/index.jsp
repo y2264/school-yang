@@ -22,18 +22,5 @@
     <label for="checkbox3"></label>
     <br />
     <button onclick="test()"></button>
-
-  <%
-    int i = 1;
-  %>
-
-  <%@include file = "user.jsp"%>
-
   </body>
-
-<script type="text/javascript">
-  function test(array){
-    alert(array);
-  }
-</script>
 </html>

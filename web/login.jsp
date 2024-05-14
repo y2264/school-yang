@@ -7,18 +7,18 @@
     <title>用户登录</title>
 </head>
 <body>
-<form action="session" method="post">
+<form action="login" method="post">
     <table border="1">
         <tr>
             <td>用户编号</td>
             <td>
-                <input type="text" name="userId" autofocus="autofocus" />
+                <input type="text" name="user_account" autofocus="autofocus" />
             </td>
         </tr>
         <tr>
             <td>用户密码</td>
             <td>
-                <input type="password" name="userPassword" />
+                <input type="password" name="user_password" />
             </td>
         </tr>
         <tr>
